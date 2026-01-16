@@ -51,19 +51,23 @@
 }
 
 .hero-text p {
-    color: #e5e7eb;
+    color: white;
     margin: 15px 0;
     max-width: 450px;
+    line-height: 1.6;
+ font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-text button {
-    background-color: #3882f6;
+    background-color:black;
     color: white;
     border: none;
     padding: 10px 30px;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .hero-image {
@@ -86,47 +90,6 @@
 .info h2 {
     font-size: 32px;
     margin-bottom: 40px;
-}
-
-.info-cards {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.card {
-    max-width: 160px;
-}
-
-.box {
-    width: 160px;
-    height: 160px;
-    border: 3px solid #3882f6;
-    border-radius: 12px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 14px;
-    color: #4b5563;
-}
-
-/* Quote Section */
-.quote {
-    background-color: #e5e7eb;
-    padding: 80px 150px;
-}
-
-.quote-text {
-    font-size: 28px;
-    font-style: italic;
-    color: #1f2937;
-}
-
-.quote-author {
-    text-align: right;
-    margin-top: 20px;
-    font-weight: bold;
 }
 
 /* Call to Action */
@@ -169,17 +132,28 @@ footer {
     text-align: justify;
     padding: 30px;
     font-size: 20px;
+
+}
+.number, .address, .location, .copyright {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
 }
 img {
     width: 500px;
     height: 300px;
     border-radius: 10px;
-
-img {
-    width: 50px;
-    height: 200px;
-    border-radius: 10px;
-    border: 1px solid black;
 } 
 
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
 }
+.image-row img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
